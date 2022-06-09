@@ -220,3 +220,33 @@ template {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
+body {
+  font-family: "NotoSans", sans-serif;
+  font-size: 18px;
+  text-align: center;
+  line-height: 29px;
+}
+
+menu {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: right;
+  line-height: 29px;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 32px;
+  text-align: center;
+  line-height: 26px;
+}
+
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 26px;
+}
