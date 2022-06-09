@@ -1,6 +1,28 @@
+@import './partials/mediaqueries';
 @import './partials/setup';
 @import './partials/variables';
 @import './partials/mixins';
 @import './partials/typography';
 @import './partials/header';
 
+button {
+    @include buttonStyles();
+    border: none;
+    padding: 10px 30px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.wrapper {
+    width: 90%;
+    max-width: 1080px;
+    margin: 0 auto;
+}

@@ -1,0 +1,48 @@
+header {
+    background-image: url(../assets/asset-1.jpg);
+    background-size: cover;
+    background-position: bottom;
+    height: 100vh;
+    color: $whiteShade;
+    .main-text{
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        span {
+                font-size: 30px;
+                padding-bottom: 30px;
+            }
+    }
+    .wrapper {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 20px 0px;
+    }
+    a {
+        color: $whiteShade;
+    }
+    a:hover {
+        color: $accentColor;
+    }
+    .socmed-nav {
+        display: flex;
+        justify-content: flex-end;
+        i {
+            color: $backgroundColor;
+        }
+        i:hover {
+            color: $accentColor;
+        }
+    }
+    .main-nav {
+        display: flex;
+        justify-content: space-between;
+        margin-right: 80px;
+        ul {
+            display: flex;
+            gap: 30px;
+        }
+    }
+}
