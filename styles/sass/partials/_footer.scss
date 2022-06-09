@@ -1,0 +1,22 @@
+footer {
+    background-color: $backgroundColor;
+    color: $whiteShade;
+    text-align: left;
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        .main-footer {
+            display: flex;
+            padding: 60px 0px;
+        }
+    }
+    .copyright {
+        background-color: $copyrightBlue;
+        margin: 0;
+    }
+    .contact {
+        p {
+            margin: 0;
+        }
+    }
+}

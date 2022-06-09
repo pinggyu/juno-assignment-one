@@ -240,7 +240,7 @@ nav a, button {
 h1 {
   font-family: "Poppins", sans-serif;
   font-weight: bold;
-  font-size: 120px;
+  font-size: 100px;
   text-align: center;
   line-height: 26px;
   text-transform: uppercase;
@@ -263,6 +263,14 @@ h3 {
   text-transform: uppercase;
 }
 
+h4 {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 26px;
+  text-transform: uppercase;
+}
+
 header {
   background-image: url(../assets/asset-1.jpg);
   background-size: cover;
@@ -278,10 +286,9 @@ header .main-text {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  gap: 12px;
 }
 header .main-text span {
-  font-size: 30px;
+  font-size: 26px;
   padding-bottom: 30px;
 }
 header .wrapper {
@@ -297,9 +304,6 @@ header .wrapper {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding: 20px 0px;
-}
-header a {
-  color: #F6F6F6;
 }
 header a:hover {
   color: #8DD7E9;
@@ -334,6 +338,34 @@ header .main-nav ul {
   gap: 30px;
 }
 
+footer {
+  background-color: #215A6D;
+  color: #F6F6F6;
+  text-align: left;
+}
+footer .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+footer .wrapper .main-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 60px 0px;
+}
+footer .copyright {
+  background-color: #1D4052;
+  margin: 0;
+}
+footer .contact p {
+  margin: 0;
+}
+
 button {
   background-color: #8DD7E9;
   border: none;
@@ -347,7 +379,12 @@ ul {
 }
 
 a {
+  color: #F6F6F6;
   text-decoration: none;
+}
+
+a:hover {
+  color: #8DD7E9;
 }
 
 .wrapper {

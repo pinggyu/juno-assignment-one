@@ -4,6 +4,7 @@
 @import './partials/mixins';
 @import './partials/typography';
 @import './partials/header';
+@import './partials/footer';
 
 button {
     @include buttonStyles();
@@ -18,7 +19,12 @@ ul {
 }
 
 a {
+    color: $whiteShade;
     text-decoration: none;
+}
+
+a:hover {
+    color: $accentColor;
 }
 
 .wrapper {
