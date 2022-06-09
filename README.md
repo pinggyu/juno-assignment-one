@@ -1,1 +1,0 @@
-# juno-assignment-one
