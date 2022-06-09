@@ -8,8 +8,6 @@
 
 button, input[type=submit] {
     @include buttonStyles();
-    border: none;
-    padding: 10px 30px;
 }
 
 ul {

@@ -222,7 +222,7 @@ template {
 }
 
 body {
-  font-family: "NotoSans", sans-serif;
+  font-family: "Noto Sans", sans-serif;
   font-size: 18px;
   text-align: center;
   line-height: 29px;
@@ -359,6 +359,7 @@ footer .wrapper .main-footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  gap: 70px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -382,13 +383,13 @@ footer .contact p {
   margin: 0;
 }
 footer .footer-nav a {
-  font-family: "NotoSans", sans-serif;
+  font-family: "Noto Sans", sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 29px;
 }
 footer .subscribe-form p {
-  margin: 0;
+  margin: 0px 0px 10px 0px;
 }
 footer .footer-subscribe {
   -webkit-box-flex: 1;
@@ -399,6 +400,16 @@ footer .footer-links {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
+}
+footer form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+footer form input[type=email] {
+  width: 100%;
+  padding-left: 30px;
+  font-family: "Noto Sans", sans-serif;
 }
 
 button, input[type=submit] {
