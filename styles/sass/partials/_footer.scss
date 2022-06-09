@@ -2,21 +2,46 @@ footer {
     background-color: $backgroundColor;
     color: $whiteShade;
     text-align: left;
+
+    .recent-posts a {
+        text-transform: none;
+    }
+
     .wrapper {
         display: flex;
         flex-direction: column;
         .main-footer {
             display: flex;
-            padding: 60px 0px;
+            justify-content: space-between;
+            padding: 80px 0px;
         }
+    }
+    .footer-links {
+        display: flex;
+        justify-content: space-between;
     }
     .copyright {
         background-color: $copyrightBlue;
         margin: 0;
+        padding: 10px 0px;
+        text-align: center;
     }
-    .contact {
-        p {
-            margin: 0;
-        }
+    .contact p {
+        margin: 0;
+    }
+    .footer-nav a {
+        font-family: $secondFont, sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 29px;
+    }
+    .subscribe-form p {
+        margin: 0;
+    }
+    .footer-subscribe {
+        flex: 1;
+    }
+    .footer-links {
+        flex: 1;
     }
 }

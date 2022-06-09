@@ -6,7 +6,7 @@
 @import './partials/header';
 @import './partials/footer';
 
-button {
+button, input[type=submit] {
     @include buttonStyles();
     border: none;
     padding: 10px 30px;
@@ -23,12 +23,20 @@ a {
     text-decoration: none;
 }
 
-a:hover {
+a:hover, button:hover {
     color: $accentColor;
+}
+
+button:hover, input[type=submit]:hover {
+    color: $whiteShade;
 }
 
 .wrapper {
     width: 90%;
     max-width: 1080px;
     margin: 0 auto;
+}
+
+h4 {
+    margin: 0;
 }

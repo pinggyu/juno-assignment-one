@@ -5,7 +5,7 @@ body {
     line-height: 29px;
 }
 
-nav a, button {
+nav a, button, input[type=submit] {
     font-family: $mainFont, sans-serif;
     font-weight: bold;
     font-size: 18px;

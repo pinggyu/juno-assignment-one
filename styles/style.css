@@ -228,7 +228,7 @@ body {
   line-height: 29px;
 }
 
-nav a, button {
+nav a, button, input[type=submit] {
   font-family: "Poppins", sans-serif;
   font-weight: bold;
   font-size: 18px;
@@ -343,6 +343,9 @@ footer {
   color: #F6F6F6;
   text-align: left;
 }
+footer .recent-posts a {
+  text-transform: none;
+}
 footer .wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -356,17 +359,49 @@ footer .wrapper .main-footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 60px 0px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 80px 0px;
+}
+footer .footer-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 footer .copyright {
   background-color: #1D4052;
   margin: 0;
+  padding: 10px 0px;
+  text-align: center;
 }
 footer .contact p {
   margin: 0;
 }
+footer .footer-nav a {
+  font-family: "NotoSans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+}
+footer .subscribe-form p {
+  margin: 0;
+}
+footer .footer-subscribe {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+footer .footer-links {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
 
-button {
+button, input[type=submit] {
   background-color: #8DD7E9;
   border: none;
   padding: 10px 30px;
@@ -383,12 +418,20 @@ a {
   text-decoration: none;
 }
 
-a:hover {
+a:hover, button:hover {
   color: #8DD7E9;
+}
+
+button:hover, input[type=submit]:hover {
+  color: #F6F6F6;
 }
 
 .wrapper {
   width: 90%;
   max-width: 1080px;
   margin: 0 auto;
+}
+
+h4 {
+  margin: 0;
 }
