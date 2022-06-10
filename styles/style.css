@@ -357,21 +357,21 @@ header .main-nav ul {
   background-color: #215A6D;
 }
 .icon-nav .wrapper {
-  padding: 80px 200px;
+  padding: 80px 0px;
 }
-.icon-nav ul {
+.icon-nav .wrapper ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  gap: 100px;
+  gap: 120px;
 }
-.icon-nav ul i {
+.icon-nav .wrapper ul i {
   font-size: 24px;
 }
-.icon-nav ul li {
+.icon-nav .wrapper ul li {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -383,6 +383,38 @@ header .main-nav ul {
       -ms-flex-align: center;
           align-items: center;
   gap: 10px;
+}
+
+.about-me {
+  background-color: #F6F6F6;
+  padding: 80px 0px;
+}
+.about-me .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+}
+.about-me .wrapper .img-container {
+  width: 28%;
+}
+.about-me .wrapper .text-container {
+  text-align: left;
+  width: 72%;
+}
+.about-me .wrapper .text-container h2 {
+  text-align: left;
+  margin-top: 0;
+}
+
+.gallery {
+  padding: 80px 0px;
+}
+.gallery .wrapper ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
 }
 
 footer {

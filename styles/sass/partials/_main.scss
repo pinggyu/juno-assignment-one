@@ -17,20 +17,52 @@
 .icon-nav {
     background-color: $backgroundColor;
     .wrapper {
-        padding: 80px 200px;
-    }
-    ul {
-        display: flex;
-        justify-content: center;
-        gap: 100px;
-        i {
-            font-size: 24px;
-        }
-        li {
+            padding: 80px 0px;
+        ul {
             display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 10px;
+            justify-content: center;
+            gap: 120px;
+    
+            i {
+                font-size: 24px;
+            }
+    
+            li {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 10px;
+            }
+        }
+    }
+}
+
+.about-me {
+    background-color: $whiteShade;
+    padding: 80px 0px;
+    .wrapper {
+        display: flex;
+        gap: 30px;
+        .img-container {
+            width: 28%;
+        }
+        .text-container {
+            text-align: left;
+            width: 72%;
+            h2 {
+                text-align: left;
+                margin-top: 0;
+            }
+        }
+    }
+}
+
+.gallery {
+    padding: 80px 0px;
+    .wrapper{
+        ul {
+            display: flex;
+            gap: 30px;
         }
     }
 }
