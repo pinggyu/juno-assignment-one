@@ -1,0 +1,36 @@
+.about-summit {
+    .wrapper {
+        padding: 80px 200px;
+    }
+}
+
+.blog {
+    background-color: $whiteShade;
+    .first-article, .second-article {
+        display: flex;
+        .article-text {
+            padding: 80px 100px;
+        }
+    }
+}
+
+.icon-nav {
+    background-color: $backgroundColor;
+    .wrapper {
+        padding: 80px 200px;
+    }
+    ul {
+        display: flex;
+        justify-content: center;
+        gap: 100px;
+        i {
+            font-size: 24px;
+        }
+        li {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+        }
+    }
+}

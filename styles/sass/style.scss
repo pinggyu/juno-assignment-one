@@ -4,6 +4,7 @@
 @import './partials/mixins';
 @import './partials/typography';
 @import './partials/header';
+@import './partials/main';
 @import './partials/footer';
 
 button, input[type=submit] {
@@ -37,4 +38,10 @@ button:hover, input[type=submit]:hover {
 
 h4 {
     margin: 0;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
 }

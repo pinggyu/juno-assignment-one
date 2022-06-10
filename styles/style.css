@@ -329,13 +329,60 @@ header .main-nav {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-right: 80px;
 }
 header .main-nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   gap: 30px;
+}
+
+.about-summit .wrapper {
+  padding: 80px 200px;
+}
+
+.blog {
+  background-color: #F6F6F6;
+}
+.blog .first-article, .blog .second-article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.blog .first-article .article-text, .blog .second-article .article-text {
+  padding: 80px 100px;
+}
+
+.icon-nav {
+  background-color: #215A6D;
+}
+.icon-nav .wrapper {
+  padding: 80px 200px;
+}
+.icon-nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 100px;
+}
+.icon-nav ul i {
+  font-size: 24px;
+}
+.icon-nav ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
 }
 
 footer {
@@ -445,4 +492,10 @@ button:hover, input[type=submit]:hover {
 
 h4 {
   margin: 0;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
 }
