@@ -344,13 +344,26 @@ header .main-nav ul {
 .blog {
   background-color: #F6F6F6;
 }
-.blog .first-article, .blog .second-article {
+.blog .wrapper {
+  width: 100%;
+  max-width: none;
+}
+.blog .wrapper .first-article, .blog .wrapper .second-article {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
-.blog .first-article .article-text, .blog .second-article .article-text {
-  padding: 80px 100px;
+.blog .wrapper .first-article .article-img, .blog .wrapper .second-article .article-img {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+}
+.blog .wrapper .first-article .article-text, .blog .wrapper .second-article .article-text {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  padding: 30px 100px;
 }
 
 .icon-nav {
@@ -396,11 +409,13 @@ header .main-nav ul {
   gap: 30px;
 }
 .about-me .wrapper .img-container {
-  width: 28%;
+  -ms-flex-preferred-size: 28%;
+      flex-basis: 28%;
 }
 .about-me .wrapper .text-container {
   text-align: left;
-  width: 72%;
+  -ms-flex-preferred-size: 72%;
+      flex-basis: 72%;
 }
 .about-me .wrapper .text-container h2 {
   text-align: left;
