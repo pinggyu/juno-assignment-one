@@ -1,3 +1,4 @@
+// for mobile
 @media (max-width: 550px){
     header {
         .wrapper {
@@ -22,36 +23,6 @@
     }
 
     main {
-        .about-summit {
-            .wrapper {
-                padding: 60px 10px;
-            }
-        }
-        .blog {
-            .wrapper {
-                .first-article {
-                    flex-direction: column;
-                    .article-text {
-                        padding: 60px 10px;
-                    }
-                }
-                .second-article {
-                    flex-direction: column-reverse;
-                    .article-text {
-                        padding: 60px 10px;
-                    }
-                }
-            }
-        }
-        .icon-nav {
-            .wrapper {
-                padding: 50px 0px;
-                ul {
-                    flex-direction: column;
-                    gap: 45px;
-                }
-            }
-        }
         .about-me {
             padding: 60px 0px;
             .wrapper {
@@ -81,30 +52,80 @@
             }
         }
     }
+}
+
+// for tablet
+
+@media (max-width: 670px) {
+    .about-summit {
+        .wrapper {
+            padding: 60px 10px;
+        }
+    }
+    .icon-nav {
+        .wrapper {
+            padding: 50px 0px;
+
+            ul {
+                flex-direction: column;
+                gap: 45px;
+            }
+        }
+    }
+}
+
+// for tablet
+
+@media (max-width: 990px) {
+    .blog {
+            .wrapper {
+                .first-article {
+                    flex-direction: column;
+    
+                    .article-text {
+                        padding: 60px 10px;
+                    }
+                }
+    
+                .second-article {
+                    flex-direction: column-reverse;
+    
+                    .article-text {
+                        padding: 60px 10px;
+                    }
+                }
+            }
+    }
 
     footer {
         .wrapper {
             text-align: center;
+
             .main-footer {
                 flex-direction: column;
                 gap: 20px;
                 padding: 60px;
             }
         }
+
         form {
             flex-direction: column;
+
             input[type=email] {
                 text-align: center;
                 padding: 13px 0px;
             }
+
             input[type=submit] {
                 text-align: center;
             }
         }
+
         .footer-links {
             flex-direction: column;
             align-items: center;
             gap: 20px;
         }
     }
+
 }

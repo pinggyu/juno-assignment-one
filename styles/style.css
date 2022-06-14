@@ -532,37 +532,6 @@ footer form input[type=email] {
     display: none;
   }
 
-  main .about-summit .wrapper {
-    padding: 60px 10px;
-  }
-  main .blog .wrapper .first-article {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  main .blog .wrapper .first-article .article-text {
-    padding: 60px 10px;
-  }
-  main .blog .wrapper .second-article {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: reverse;
-        -ms-flex-direction: column-reverse;
-            flex-direction: column-reverse;
-  }
-  main .blog .wrapper .second-article .article-text {
-    padding: 60px 10px;
-  }
-  main .icon-nav .wrapper {
-    padding: 50px 0px;
-  }
-  main .icon-nav .wrapper ul {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    gap: 45px;
-  }
   main .about-me {
     padding: 60px 0px;
   }
@@ -599,6 +568,42 @@ footer form input[type=email] {
   }
   main .gallery .wrapper .gallery-photos li:last-child {
     display: none;
+  }
+}
+@media (max-width: 670px) {
+  .about-summit .wrapper {
+    padding: 60px 10px;
+  }
+
+  .icon-nav .wrapper {
+    padding: 50px 0px;
+  }
+  .icon-nav .wrapper ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 45px;
+  }
+}
+@media (max-width: 990px) {
+  .blog .wrapper .first-article {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .blog .wrapper .first-article .article-text {
+    padding: 60px 10px;
+  }
+  .blog .wrapper .second-article {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .blog .wrapper .second-article .article-text {
+    padding: 60px 10px;
   }
 
   footer .wrapper {
