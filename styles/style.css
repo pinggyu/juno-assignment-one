@@ -594,7 +594,7 @@ footer form input[type=email] {
             flex-direction: column;
   }
   .blog .wrapper .first-article .article-text {
-    padding: 60px 10px;
+    padding: 60px 38px;
   }
   .blog .wrapper .second-article {
     -webkit-box-orient: vertical;
@@ -603,7 +603,7 @@ footer form input[type=email] {
             flex-direction: column-reverse;
   }
   .blog .wrapper .second-article .article-text {
-    padding: 60px 10px;
+    padding: 60px 38px;
   }
 
   footer .wrapper {
