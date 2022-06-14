@@ -335,6 +335,9 @@ header .main-nav .nav-pages, header .main-nav .social-icons {
   display: flex;
   gap: 30px;
 }
+header .main-nav .hamburger {
+  display: none;
+}
 
 .about-summit .wrapper {
   padding: 80px 200px;
@@ -365,7 +368,7 @@ header .main-nav .nav-pages, header .main-nav .social-icons {
 .blog .wrapper .first-article .article-text, .blog .wrapper .second-article .article-text {
   -ms-flex-preferred-size: 50%;
       flex-basis: 50%;
-  padding: 30px 100px;
+  padding: 0px 100px;
 }
 
 .icon-nav {
@@ -508,6 +511,131 @@ footer form input[type=email] {
   font-family: "Noto Sans", sans-serif;
 }
 
+@media (max-width: 550px) {
+  header .wrapper {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  header .main-text {
+    margin-top: 20vh;
+  }
+  header .main-nav .nav-pages {
+    display: none;
+  }
+  header .main-nav .hamburger {
+    display: inline-block;
+    color: #F6F6F6;
+    font-size: 32px;
+  }
+  header .socmed-nav {
+    display: none;
+  }
+
+  main .about-summit .wrapper {
+    padding: 60px 10px;
+  }
+  main .blog .wrapper .first-article {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  main .blog .wrapper .first-article .article-text {
+    padding: 60px 10px;
+  }
+  main .blog .wrapper .second-article {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  main .blog .wrapper .second-article .article-text {
+    padding: 60px 10px;
+  }
+  main .icon-nav .wrapper {
+    padding: 50px 0px;
+  }
+  main .icon-nav .wrapper ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 45px;
+  }
+  main .about-me {
+    padding: 60px 0px;
+  }
+  main .about-me .wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  main .about-me .wrapper .text-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  main .about-me .wrapper .text-container h3 {
+    text-align: center;
+    margin-bottom: 0;
+  }
+  main .gallery {
+    padding: 0;
+  }
+  main .gallery .wrapper {
+    width: 100%;
+  }
+  main .gallery .wrapper .gallery-photos {
+    gap: 0;
+  }
+  main .gallery .wrapper .gallery-photos li:last-child {
+    display: none;
+  }
+
+  footer .wrapper {
+    text-align: center;
+  }
+  footer .wrapper .main-footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 20px;
+    padding: 60px;
+  }
+  footer form {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  footer form input[type=email] {
+    text-align: center;
+    padding: 13px 0px;
+  }
+  footer form input[type=submit] {
+    text-align: center;
+  }
+  footer .footer-links {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 20px;
+  }
+}
 button, input[type=submit] {
   background-color: #8DD7E9;
   border: none;

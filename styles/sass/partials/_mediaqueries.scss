@@ -1,0 +1,110 @@
+@media (max-width: 550px){
+    header {
+        .wrapper {
+            justify-content: flex-start;
+        }
+        .main-text {
+            margin-top: 20vh;
+        }
+        .main-nav {
+            .nav-pages {
+                    display: none;
+            }
+            .hamburger {
+                display: inline-block;
+                color: $whiteShade;
+                font-size: 32px;
+            }
+        }
+        .socmed-nav {
+            display: none;
+        }
+    }
+
+    main {
+        .about-summit {
+            .wrapper {
+                padding: 60px 10px;
+            }
+        }
+        .blog {
+            .wrapper {
+                .first-article {
+                    flex-direction: column;
+                    .article-text {
+                        padding: 60px 10px;
+                    }
+                }
+                .second-article {
+                    flex-direction: column-reverse;
+                    .article-text {
+                        padding: 60px 10px;
+                    }
+                }
+            }
+        }
+        .icon-nav {
+            .wrapper {
+                padding: 50px 0px;
+                ul {
+                    flex-direction: column;
+                    gap: 45px;
+                }
+            }
+        }
+        .about-me {
+            padding: 60px 0px;
+            .wrapper {
+                flex-direction: column;
+                .text-container {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    h3 {
+                        text-align: center;
+                        margin-bottom: 0;
+                    }
+                } 
+            }
+        }
+        .gallery {
+            padding: 0;
+            .wrapper {
+                width: 100%;
+                .gallery-photos {
+                    gap: 0;
+                }
+                .gallery-photos li:last-child {
+                    display: none;
+                }
+                
+            }
+        }
+    }
+
+    footer {
+        .wrapper {
+            text-align: center;
+            .main-footer {
+                flex-direction: column;
+                gap: 20px;
+                padding: 60px;
+            }
+        }
+        form {
+            flex-direction: column;
+            input[type=email] {
+                text-align: center;
+                padding: 13px 0px;
+            }
+            input[type=submit] {
+                text-align: center;
+            }
+        }
+        .footer-links {
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
+    }
+}

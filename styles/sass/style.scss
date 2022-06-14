@@ -1,4 +1,3 @@
-@import './partials/mediaqueries';
 @import './partials/setup';
 @import './partials/variables';
 @import './partials/mixins';
@@ -6,6 +5,7 @@
 @import './partials/header';
 @import './partials/main';
 @import './partials/footer';
+@import './partials/mediaqueries';
 
 button, input[type=submit] {
     @include buttonStyles();
