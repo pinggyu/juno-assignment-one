@@ -287,6 +287,11 @@ header .main-text span {
   text-transform: uppercase;
   margin-top: 30px;
 }
+@media (max-width: 460px) {
+  header .main-text span {
+    font-size: 85px;
+  }
+}
 header .wrapper {
   height: 100vh;
   display: -webkit-box;
@@ -340,7 +345,7 @@ header .main-nav .hamburger {
 }
 
 .about-summit .wrapper {
-  padding: 80px 200px;
+  padding: 200px;
 }
 
 .blog {
@@ -349,6 +354,9 @@ header .main-nav .hamburger {
 .blog .wrapper {
   width: 100%;
   max-width: none;
+}
+.blog .wrapper img {
+  width: 100%;
 }
 .blog .wrapper h4 {
   margin-bottom: 15px;
@@ -531,7 +539,6 @@ footer form input[type=email] {
   header .socmed-nav {
     display: none;
   }
-
   main .about-me {
     padding: 60px 0px;
   }
@@ -574,7 +581,6 @@ footer form input[type=email] {
   .about-summit .wrapper {
     padding: 60px 10px;
   }
-
   .icon-nav .wrapper {
     padding: 50px 0px;
   }
@@ -605,7 +611,6 @@ footer form input[type=email] {
   .blog .wrapper .second-article .article-text {
     padding: 60px 38px;
   }
-
   footer .wrapper {
     text-align: center;
   }

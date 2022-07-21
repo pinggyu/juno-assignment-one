@@ -1,6 +1,6 @@
 .about-summit {
     .wrapper {
-        padding: 80px 200px;
+        padding: 200px;
     }
 }
 
@@ -9,6 +9,9 @@
     .wrapper {
         width: 100%;
         max-width: none;
+        img {
+            width: 100%;
+        }
         h4 {
             margin-bottom: 15px;
         }
